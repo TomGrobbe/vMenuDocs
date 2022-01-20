@@ -16,7 +16,7 @@ vMenu uses the default Aces & Principals system available in FiveM. I've made a 
 
 1. **Permissions are called Aces**
 <br>Aces (`vMenu.PlayerOptions.Menu`, for example) are what you want to _give_ to your players. Having such Ace/permission, you'll be able to access different parts of the menu and perform different actions.
-2. **Groups are called Princials**
+2. **Groups are called Principals**
 <br>Giving permissions to every single player would be a waste of time and just completely useless. That's where Principals (groups) come in to play. You can give permissions to a specific Principal, and add Players to a principal. You can also add principals to other principals, allowing a inheritance-like permissions system to improve your setup. <br>You can create as many groups/Principals as you want, and you can also name them whatever you want.
 
 --------
