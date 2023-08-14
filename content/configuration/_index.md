@@ -24,8 +24,8 @@ setr vmenu_option_name value
 |`vmenu_default_weather`|A valid weather type|Set the default weather type that will be selected when the resource is loaded.|
 |`vmenu_enable_time_sync`|`true` / `false`|Enables/disables time sync completely.|
 |`vmenu_freeze_time`|`true` / `false`|Enables/disables the default freeze time state.|
-|`vmenu_default_time_hour`|Any [integer][integer] (whole number)|The default in-game hour to set the time to whenever the resource is started (24 hours clock).|
-|`vmenu_default_time_min`|Any [integer][integer] (whole number)|The default in-game minute to set the time to whenever the resource is started.|
+|`vmenu_current_hour`|Any [integer][integer] (whole number)|The default in-game hour to set the time to whenever the resource is started (24 hours clock).|
+|`vmenu_current_minute`|Any [integer][integer] (whole number)|The default in-game minute to set the time to whenever the resource is started.|
 |`vmenu_ingame_minute_duration`|Any [integer][integer] (whole number)|(Default: 2000) Sets the duration of 1 in-game minute to this value in real time (ms). Example: if this is set to 2000 (ms) then 1 in-game minute takes 2 seconds in real life.|
 |`vmenu_auto_ban_cheaters`|`true` / `false`|Automatically bans people who try to trigger events when they don't have permissions for it. In rare cases this can be unreliable so it's disabled by default.|
 |`vmenu_log_ban_actions`|`true` / `false`|Log whenever someone gets banned to the `vmenu.log` file.|
